@@ -109,6 +109,7 @@
 
 
   <meta name="description" content="In this blog, I will introduce YOLO (version 1) algorithm. YOLO now has been a popular algorithm on Object Detection because of its speed and simple structure. Original paper: You Only Look Once: Unif">
+<meta name="keywords" content="deep learning,computer vision,object detection">
 <meta property="og:type" content="article">
 <meta property="og:title" content="YOLO-v1">
 <meta property="og:url" content="http://yoursite.com/2018/07/08/YOLO-v1/index.html">
@@ -120,7 +121,7 @@
 <meta property="og:image" content="http://yoursite.com/images/yolo3.png">
 <meta property="og:image" content="http://yoursite.com/images/yolo4.png">
 <meta property="og:image" content="http://yoursite.com/images/yolo5.png">
-<meta property="og:updated_time" content="2018-08-11T08:32:57.000Z">
+<meta property="og:updated_time" content="2018-08-11T08:59:54.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="YOLO-v1">
 <meta name="twitter:description" content="In this blog, I will introduce YOLO (version 1) algorithm. YOLO now has been a popular algorithm on Object Detection because of its speed and simple structure. Original paper: You Only Look Once: Unif">
@@ -377,7 +378,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-08-11 16:32:57" itemprop="dateModified" datetime="2018-08-11T16:32:57+08:00">2018-08-11</time>
+                <time title="Modified: 2018-08-11 16:59:54" itemprop="dateModified" datetime="2018-08-11T16:59:54+08:00">2018-08-11</time>
               
             
           </span>
@@ -446,6 +447,16 @@ Picture 3<br></center><br>Then, each cell will produce class probability $Pr(cla
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/deep-learning/" rel="tag"># deep learning</a>
+          
+            <a href="/tags/computer-vision/" rel="tag"># computer vision</a>
+          
+            <a href="/tags/object-detection/" rel="tag"># object detection</a>
+          
+        </div>
       
 
       
@@ -578,7 +589,9 @@ Picture 3<br></center><br>Then, each cell will produce class probability $Pr(cla
                     
                       
                     
-                    <span class="site-state-item-count">4</span>
+                      
+                    
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
@@ -762,24 +775,7 @@ Picture 3<br></center><br>Then, each cell will produce class probability $Pr(cla
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.3.0"></script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config("");
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i=0; i < all.length; i += 1) {
-      all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-  });
-</script>
-
-<script type="text/javascript" src="">
-</script>
-<!-- End: Injected MathJax -->
-<!-- hexo-inject:end -->
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.3.0"></script>
 
 
 
@@ -828,6 +824,47 @@ Picture 3<br></center><br>Then, each cell will produce class probability $Pr(cla
   
   
 
+  
+    
+      <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      TeX: {equationNumbers: { autoNumber: "AMS" }}
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+
+    
   
 
 
