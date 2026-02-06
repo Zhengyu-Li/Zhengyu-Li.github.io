@@ -1,0 +1,90 @@
+
+conference:
+  - title: "DiMo: Discrete Diffusion Modeling for Motion Generation and Understanding"
+    authors:
+      - Ning Zhang
+      - Zhengyu Li
+      - Kwong Weng Loh
+      - Mingxi Xu
+      - Qi Wang
+      - Zhengyu Wen
+      - Xiaoyu He
+      - Wei Zhao
+      - Kehong Gong
+      - Mingyuan Zhang
+    venue: arXiv preprint
+    year: 2026
+    url: https://animotionlab.github.io/DiMo/
+    pdf: https://arxiv.org/pdf/2602.04188
+
+  - title: "NECromancer: Breathing Life Into Skeletons Via BVH Animation"
+    authors:
+      - Mingxi Xu
+      - Qi Wang
+      - Zhengyu Wen
+      - Phong Dao Thien
+      - Zhengyu Li
+      - Ning Zhang
+      - Xiaoyu He
+      - Kehong Gong
+      - Wei Zhao
+      - Kehong Gong
+      - Mingyuan Zhang
+    venue: arXiv preprint
+    year: 2026
+    url: https://animotionlab.github.io/NECromancer/
+    pdf: https://arxiv.org/pdf/2512.10860
+
+
+  - title: "MoCapAnything: Unified 3D Motion Capture for Arbitrary Skeletons from Monocular Videos"
+    authors:
+      - Kehong Gong
+      - Zhengyu Wen
+      - Weixia He
+      - Mingxi Xu
+      - Qi Wang
+      - Ning Zhang
+      - Zhengyu Li
+      - Dongze Lian
+      - Wei Zhao
+      - Xiaoyu He
+      - Mingyuan Zhang
+    venue: arXiv preprint
+    year: 2025
+    url: https://animotionlab.github.io/MoCapAnything/
+    pdf: https://arxiv.org/pdf/2512.10881
+    # abstract: >
+    #   We propose a middle-out compression algorithm for efficient storage
+    #   and transmission of 3D media data.
+
+  - title: "SWiT-4D: Sliding-Window Transformer for Lossless and Parameter-Free Temporal 4D Generation"
+    authors:
+      - Kehong Gong
+      - Zhengyu Wen
+      - Mingxi Xu
+      - Weixia He
+      - Qi Wang
+      - Ning Zhang
+      - Zhengyu Li
+      - Chenbin Li
+      - Dongze Lian
+      - Wei Zhao
+      - Xiaoyu He
+      - Mingyuan Zhang
+    venue: arXiv preprint
+    year: 2025
+    url: https://animotionlab.github.io/SWIT4D/
+    pdf: https://arxiv.org/pdf/2512.10860
+
+  - title: "Object-augmented skeleton-based action recognition"
+    authors:
+      - Zhengyu Li
+      - Heng Guo
+      - Lap-Pui Chau
+      - Cheen Hau Tan
+      - Xiaoxi Ma
+      - Dan Lin
+      - Kim-Hui Yap
+    venue: AICAS
+    year: 2023
+    pdf: https://ieeexplore.ieee.org/abstract/document/10168565

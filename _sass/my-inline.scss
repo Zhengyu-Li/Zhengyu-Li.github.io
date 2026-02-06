@@ -1,0 +1,81 @@
+// You can add CSS rules here that will be inlined into each document.
+// .sidebar a {
+//   text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
+// }
+/* Portfolio tabs – minimal Hydejack style */
+.portfolio-tabs {
+  display: flex;
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.portfolio-tab {
+  background: none;
+  border: none;
+  padding: 0.25rem 0;
+  font: inherit;
+  color: var(--text-muted-color);
+  cursor: pointer;
+  position: relative;
+}
+
+.portfolio-tab:hover {
+  color: var(--text-color);
+}
+
+.portfolio-tab.active {
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.portfolio-tab.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 2px;
+  background: var(--accent-color);
+}
+
+/* Portfolio image hover effect */
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-item img {
+  width: 100%;
+  display: block;
+  transition: filter 0.25s ease, transform 0.25s ease;
+}
+
+.portfolio-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.portfolio-note {
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0 1rem;
+  line-height: 1.4;
+}
+
+/* Hover state */
+.portfolio-item:hover img {
+  filter: blur(4px);
+  transform: scale(1.02);
+}
+
+.portfolio-item:hover .portfolio-overlay {
+  opacity: 1;
+}

@@ -1,0 +1,72 @@
+experience:
+  - title: Computer Vision Algorithm Engineer
+    company: Huawei Singapore Research Center
+    period: Jan 2023 – Present
+    description: >
+      Conducting research and development on 3D digital humans, 
+      with a focus on talking-face generation, human body motion generation, 
+      and human–object interaction, leveraging large language models and diffusion-based methods. 
+      Actively involved in large-scale distributed training of foundation models on cloud platforms, 
+      with hands-on experience in system-level optimization and practical deployment of generative models.
+
+  
+  - title: Research Associate
+    company: Continental-NTU Corp Lab
+    period: Feb 2021 –  Dec 2022
+    description: >
+      Conducted research on skeleton-based human action recognition, 
+      including the integration of complementary algorithms such as object detection and keypoint detection. 
+      Evaluated the performance of the overall system in in-cabin (car cabin) environments, 
+      and supported data collection and dataset preparation for real-world automotive scenarios.
+
+  - title: System Architecture and Algorithm Engineer
+    company: Realtek Singapore Pte. Ltd.
+    period: Jul 2018 –  Jan 2021
+    description: >
+      Responsible for research and development of computer vision algorithms, 
+      including application prototyping, performance evaluation, and deployment on SoC platforms. 
+      Worked on a range of vision and audio-related tasks such as face detection (Haar, SSD), face recognition (LBPH, FaceNet), 
+      liveness detection (FASNet, color texture–based methods), license plate character classification, and baby cry detection. 
+      Also involved in neural network model compression to enable efficient inference on resource-constrained embedded devices.
+
+education:
+  - degree: Master
+    major: Computer Sciencce
+    institution: National University of Singapore
+    period: Aug 2017 – Jun 2018
+
+  - degree: Bachelor
+    major: Computer Sciencce and Technology
+    institution: University of Electronic Science and Technology of China
+    period: Sep 2013 – Jun 2017
+
+
+# volunteer:
+#   - title: Teacher
+#     organization: CoderDojo
+#     organization_url: https://coderdojo.com/
+#     period: Jan 2012 – Jan 2013
+#     description: >
+#       Global movement of free coding clubs for young people.
+#     highlights:
+#       - Awarded "Teacher of the Month"
+
+# awards:
+#   - title: Digital Compression Pioneer Award
+#     issuer: TechCrunch
+#     date: Nov 2014
+#     description: There is no spoon.
+
+# publications:
+#   - title: Video Compression for 3D Media
+#     publisher: Hooli
+#     date: Oct 2014
+#     url: https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)
+#     description: >
+#       Innovative middle-out compression algorithm that changes the way we store data.
+
+# references:
+#   - name: Erlich Bachman
+#     quote: >
+#       It is my pleasure to recommend Richard. His performance working as a consultant
+#       for Main St. Company proved that he will be a valuable addition to any company.

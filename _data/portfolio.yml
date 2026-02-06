@@ -1,0 +1,42 @@
+themes:
+  - id: coordinates
+    title: Coordinates
+    description: Where footsteps pause.
+    images:
+      - src: /assets/img/portfolio/coordinates/Tokyo.jpg
+        caption: Tokyo, Japan
+      - src: /assets/img/portfolio/coordinates/Osaka.jpg
+        caption: Osaka, Japan
+      - src: /assets/img/portfolio/coordinates/Zurich.jpg
+        caption: Zurich, Switzerland
+      - src: /assets/img/portfolio/coordinates/Chamonix.jpg
+        caption: Chamonix, France
+      - src: /assets/img/portfolio/coordinates/Shanghai.jpg
+        caption: Shanghai, China
+
+  # - id: gravity
+  #   title: Gravity
+  #   description: What quietly pulls.
+  #   images:
+  #     - src: /assets/img/portfolio/gravity/1.jpg
+  #       caption: Motion-driven generation
+  #     - src: /assets/img/portfolio/gravity/2.jpg
+  #       caption: Cross-species motion
+
+  - id: echoes
+    title: Echoes
+    description: What lingers on.
+    images:
+      - src: /assets/img/portfolio/echoes/2024mayday.jpg
+        caption: MAYDAY《NOW-HERE》 2024.01.13
+      - src: /assets/img/portfolio/echoes/2023carnival.jpg
+        caption: Jay Chou《Carnival》 2023.08.20
+      - src: /assets/img/portfolio/echoes/blackpink.PNG
+        caption: Blackpink [BORN PINK] 2023.05.14
+      - src: /assets/img/portfolio/echoes/mycon-kl.jpg
+        caption: MAMAMOO[MY CON] 2023.02.11
+      # - src: /assets/img/portfolio/echoes/mycon-sg.jpg
+      #   caption: MAMAMOO[MY CON] in Singapore 2023.02.08
+      - src: /assets/img/portfolio/echoes/2022carnival.PNG
+        caption: Jay Chou《Carnival》2022.12.18
+
